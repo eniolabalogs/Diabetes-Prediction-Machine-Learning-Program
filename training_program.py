@@ -5,7 +5,7 @@ from sklearn.model_selection import train_test_split
 from sklearn import svm
 from sklearn.metrics import accuracy_score
 
-diabetes_dataset= pd.read_csv("C://Users/Public/MachineLearningProjects/MachineLearning-2/diabetes.csv")
+diabetes_dataset= pd.read_csv("diabetes.csv")
 
 #to print the first 5 rows of the file
 #print(diabetes_dataset.head())
